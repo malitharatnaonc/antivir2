@@ -1,0 +1,39 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_8  and  C_9 
+REMARK    2  A    between atoms: C_9  and  N_10 
+REMARK    3  A    between atoms: N_10  and  C_11 
+REMARK    4  A    between atoms: C_11  and  C_12 
+REMARK    5  A    between atoms: C_12  and  N_13 
+ROOT
+HETATM    1  N   UNL     1       0.842  -1.603  -2.150  1.00  0.00     0.085 N 
+HETATM    2  H   UNL     1       1.493  -1.577  -2.938  1.00  0.00     0.315 HD
+ENDROOT
+BRANCH   1   3
+HETATM    3  C   UNL     1       1.572  -2.054  -0.961  1.00  0.00     0.279 C 
+BRANCH   3   4
+HETATM    4  C   UNL     1       2.831  -1.190  -0.657  1.00  0.00     0.045 C 
+HETATM    5  C   UNL     1       2.541   0.227  -0.049  1.00  0.00    -0.009 C 
+HETATM    6  C   UNL     1       1.082   0.498   0.361  1.00  0.00     0.011 C 
+HETATM    7  C   UNL     1       3.082   1.465  -0.789  1.00  0.00     0.009 C 
+HETATM    8  C   UNL     1       3.991   1.280  -1.992  1.00  0.00     0.028 C 
+HETATM    9  C   UNL     1       4.326  -0.109  -2.375  1.00  0.00    -0.024 C 
+HETATM   10  C   UNL     1       3.836  -1.219  -1.805  1.00  0.00    -0.081 C 
+HETATM   11  C   UNL     1       4.290  -2.572  -2.299  1.00  0.00     0.043 C 
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1  12
+HETATM   12  C   UNL     1      -0.278  -2.500  -2.453  1.00  0.00     0.290 C 
+BRANCH  12  13
+HETATM   13  C   UNL     1      -1.038  -2.006  -3.684  1.00  0.00     0.175 C 
+BRANCH  13  14
+HETATM   14  N   UNL     1      -2.177  -2.848  -3.968  1.00  0.00    -0.284 N 
+HETATM   15  C   UNL     1      -3.463  -2.689  -3.550  1.00  0.00     0.126 A 
+HETATM   16  C   UNL     1      -4.112  -3.778  -4.079  1.00  0.00     0.123 A 
+HETATM   17  N   UNL     1      -3.224  -4.542  -4.782  1.00  0.00    -0.294 N 
+HETATM   18  N   UNL     1      -2.034  -3.961  -4.708  1.00  0.00    -0.021 NA
+ATOM     19  HN  UNL     1      -3.439  -5.408  -5.277  1.00  0.00     0.183 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 5

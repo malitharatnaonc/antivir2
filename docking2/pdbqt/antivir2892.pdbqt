@@ -1,0 +1,53 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG1_2  and  CB_3 
+REMARK    2  A    between atoms: CB_3  and  CA_5 
+REMARK    3  A    between atoms: CA_5  and  N_6 
+REMARK    4  A    between atoms: CA_5  and  C_7 
+REMARK       I    between atoms: N_6  and  C_12 
+REMARK    5  A    between atoms: C_7  and  OXT_9 
+REMARK    6  A    between atoms: C_12  and  C_14 
+REMARK    7  A    between atoms: C_14  and  C_15 
+REMARK    8  A    between atoms: N_18  and  C_21 
+ROOT
+ATOM      1  N   ILE A   1       4.881  -1.390   0.190  1.00  0.00    -0.346 N 
+ATOM      2  H   ILE A   1       4.989  -2.396   0.277  1.00  0.00     0.163 HD
+HETATM    3  C   UNK A   0       5.113  -0.602   1.295  1.00  0.00     0.224 C 
+HETATM    4  O   UNK A   0       5.172   0.625   1.196  1.00  0.00    -0.273 OA
+ENDROOT
+BRANCH   3   5
+HETATM    5  C   UNK A   0       5.375  -1.349   2.587  1.00  0.00     0.161 C 
+BRANCH   5   6
+HETATM    6  C   UNK A   0       4.121  -1.741   3.282  1.00  0.00     0.036 A 
+HETATM    7  C   UNK A   0       3.426  -1.029   4.289  1.00  0.00     0.045 A 
+HETATM    8  C   UNK A   0       2.390  -1.851   4.662  1.00  0.00     0.112 A 
+HETATM    9  N   UNK A   0       2.504  -2.976   3.895  1.00  0.00    -0.299 N 
+HETATM   10  N   UNK A   0       3.548  -2.929   3.039  1.00  0.00    -0.302 N 
+ATOM     11  HN  UNK A   0       3.835  -3.636   2.362  1.00  0.00     0.186 HD
+BRANCH   9  12
+HETATM   12  C   UNK A   0       1.645  -4.154   3.955  1.00  0.00     0.099 C 
+HETATM   13  C   UNK A   0       0.928  -4.391   2.627  1.00  0.00     0.034 C 
+HETATM   14  C   UNK A   0       2.421  -5.393   4.400  1.00  0.00     0.034 C 
+ENDBRANCH   9  12
+ENDBRANCH   5   6
+ENDBRANCH   3   5
+BRANCH   1  15
+ATOM     15  CA  ILE A   1       4.744  -0.799  -1.141  1.00  0.00     0.186 C 
+BRANCH  15  16
+ATOM     16  CB  ILE A   1       3.974  -1.720  -2.119  1.00  0.00     0.014 C 
+ATOM     17  CG2 ILE A   1       3.855  -1.056  -3.501  1.00  0.00     0.012 C 
+BRANCH  16  18
+ATOM     18  CG1 ILE A   1       2.574  -2.050  -1.550  1.00  0.00     0.002 C 
+ATOM     19  CD1 ILE A   1       1.761  -3.006  -2.411  1.00  0.00     0.005 C 
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+BRANCH  15  20
+ATOM     20  C   ILE A   1       6.171  -0.487  -1.628  1.00  0.00     0.163 C 
+ATOM     21  O   ILE A   1       6.862  -1.240  -2.305  1.00  0.00    -0.648 OA
+BRANCH  20  22
+ATOM     22  OXT ILE A   1       6.646   0.690  -1.147  1.00  0.00    -0.775 OA
+ATOM     23  HXT ILE A   1       6.058   1.071  -0.451  1.00  0.00     0.167 HD
+ENDBRANCH  20  22
+ENDBRANCH  15  20
+ENDBRANCH   1  15
+TORSDOF 8
