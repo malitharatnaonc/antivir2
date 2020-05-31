@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_8  and  C_9 
+REMARK    2  A    between atoms: C_9  and  C_10 
+REMARK       I    between atoms: C_10  and  N_12 
+REMARK    3  A    between atoms: N_12  and  C_13 
+ROOT
+HETATM    1  C   UNL     1       1.764   2.951  -0.303  1.00  0.00     0.222 C 
+HETATM    2  O   UNL     1       0.995   2.171  -0.858  1.00  0.00    -0.273 OA
+HETATM    3  N   UNL     1       1.359   4.186   0.164  1.00  0.00    -0.355 N 
+HETATM    4  H   UNL     1       2.070   4.840   0.470  1.00  0.00     0.162 HD
+ENDROOT
+BRANCH   1   5
+HETATM    5  C   UNL     1       3.229   2.620  -0.083  1.00  0.00     0.146 C 
+BRANCH   5   6
+HETATM    6  C   UNL     1       3.534   1.883   1.183  1.00  0.00     0.006 A 
+HETATM    7  C   UNL     1       2.755   0.951   1.939  1.00  0.00     0.038 A 
+HETATM    8  C   UNL     1       1.382   0.439   1.715  1.00  0.00     0.071 C 
+HETATM    9  N   UNL     1       3.441   0.491   2.995  1.00  0.00    -0.265 N 
+HETATM   10  O   UNL     1       4.676   1.091   2.941  1.00  0.00    -0.242 OA
+ATOM     11  HN  UNL     1       3.112  -0.171   3.698  1.00  0.00     0.194 HD
+HETATM   12  C   UNL     1       4.736   1.911   1.865  1.00  0.00     0.081 A 
+HETATM   13  C   UNL     1       6.022   2.605   1.661  1.00  0.00     0.079 C 
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   3  14
+HETATM   14  C   UNL     1      -0.009   4.667  -0.029  1.00  0.00     0.099 C 
+HETATM   15  C   UNL     1      -0.152   5.482  -1.328  1.00  0.00     0.041 C 
+HETATM   16  C   UNL     1      -1.291   6.493  -1.184  1.00  0.00     0.142 C 
+HETATM   17  S   UNL     1      -1.888   6.378   0.487  1.00  0.00     0.146 S 
+HETATM   18  O   UNL     1      -1.952   7.703   1.064  1.00  0.00    -0.228 OA
+HETATM   19  O   UNL     1      -3.013   5.466   0.513  1.00  0.00    -0.228 OA
+HETATM   20  C   UNL     1      -0.468   5.540   1.128  1.00  0.00     0.165 C 
+ENDBRANCH   3  14
+TORSDOF 3

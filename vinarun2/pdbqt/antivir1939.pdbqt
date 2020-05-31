@@ -1,0 +1,37 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_5 
+REMARK    2  A    between atoms: N_9  and  C_10 
+REMARK    3  A    between atoms: C_10  and  C_11 
+REMARK       I    between atoms: C_11  and  N_13 
+REMARK    4  A    between atoms: N_13  and  C_14 
+ROOT
+HETATM    1  C   UNL     1       3.698  -1.127  -0.805  1.00  0.00     0.115 C 
+HETATM    2  C   UNL     1       3.771  -0.504  -1.998  1.00  0.00     0.023 C 
+HETATM    3  C   UNL     1       3.380  -1.171  -3.213  1.00  0.00     0.018 C 
+HETATM    4  C   UNL     1       2.809  -2.379  -3.146  1.00  0.00     0.095 C 
+HETATM    5  N   UNL     1       2.706  -3.046  -1.937  1.00  0.00    -0.315 N 
+HETATM    6  C   UNL     1       3.279  -2.548  -0.763  1.00  0.00     0.263 C 
+HETATM    7  O   UNL     1       3.403  -3.241   0.246  1.00  0.00    -0.267 OA
+ENDROOT
+BRANCH   5   8
+HETATM    8  C   UNL     1       2.114  -4.380  -1.885  1.00  0.00     0.234 C 
+BRANCH   8   9
+HETATM    9  C   UNL     1       0.807  -4.375  -1.082  1.00  0.00     0.236 C 
+HETATM   10  O   UNL     1      -0.280  -4.140  -1.603  1.00  0.00    -0.272 OA
+HETATM   11  N   UNL     1       0.977  -4.626   0.270  1.00  0.00    -0.355 N 
+HETATM   12  H   UNL     1       1.917  -4.513   0.654  1.00  0.00     0.162 HD
+BRANCH  11  13
+HETATM   13  C   UNL     1      -0.122  -4.764   1.172  1.00  0.00     0.084 A 
+HETATM   14  C   UNL     1      -0.638  -3.604   1.975  1.00  0.00     0.027 A 
+HETATM   15  C   UNL     1       0.096  -4.718   2.661  1.00  0.00     0.027 A 
+ENDBRANCH  11  13
+ENDBRANCH   8   9
+ENDBRANCH   5   8
+BRANCH   1  16
+HETATM   16  C   UNL     1       3.913  -0.435   0.489  1.00  0.00     0.422 C 
+HETATM   17  F   UNL     1       3.755  -1.188   1.603  1.00  0.00    -0.166 F 
+HETATM   18  F   UNL     1       3.043   0.607   0.617  1.00  0.00    -0.166 F 
+HETATM   19  F   UNL     1       5.157   0.109   0.560  1.00  0.00    -0.166 F 
+ENDBRANCH   1  16
+TORSDOF 4
